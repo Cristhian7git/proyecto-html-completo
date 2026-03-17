@@ -19,7 +19,7 @@ header nav ul li {
 main .card-producto {
   width: 2000px;
 }
-
+/* html principal */
 /* solo css */
 /* estilos de header */
 /* mobile */
@@ -109,8 +109,26 @@ header{
 .dos{
   grid-area: 1 / 2 / 3;
 }
-
 }
 
+/* página de ramen */
+
+.ramen{
+  display: flex;
+  padding-left: 35%;
+}
+
+.ramen img{
+  width: 550px;
+  height: 500px;
+  border-style: solid;
+  border-width: 3px;
+}
+main div h3{
+  padding-left: 45%;
+}
+main div ul{
+  padding-left: 35%;
+}
 
 /*# sourceMappingURL=main.css.map */
