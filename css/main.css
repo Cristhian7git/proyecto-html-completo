@@ -22,6 +22,7 @@ main .card-producto {
 
 /* solo css */
 /* estilos de header */
+/* mobile */
 .logo{
   width: 150px;
   height: 150px;
@@ -75,9 +76,41 @@ footer{
 /* mq tablet */
 
 @media (min-width: 768px){
-  .logo{
-    width: 25%;
-  }
+  
 }
+
+/* mw desktop */
+
+@media (min-width: 1024px){
+header{
+  display: flex;
+  gap: 75%;
+}
+.logo{
+  width: 100px;
+  height: 250px;
+  object-fit: fill;
+}
+.grilla img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.grilla{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(2, 50%);
+  gap: 70px;
+}
+
+.uno{
+  grid-area: 1 / 2;
+}
+.dos{
+  grid-area: 1 / 2 / 3;
+}
+
+}
+
 
 /*# sourceMappingURL=main.css.map */
