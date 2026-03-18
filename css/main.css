@@ -1,6 +1,6 @@
 /*comentario en sass y en css*/
 header {
-  background-color: brown;
+  background-color: beige;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,11 +9,8 @@ header .logo {
   width: 100%;
 }
 header nav ul {
-  color: rgb(201, 46, 19);
+  color: beige;
   display: flex;
-}
-header nav ul li {
-  color: rgb(53, 51, 51);
 }
 
 main .card-producto {

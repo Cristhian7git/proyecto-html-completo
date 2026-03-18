@@ -6,7 +6,7 @@
 @use "utilities/listas" as *;
 //nesting
 header{
-    background-color: nth($lista-colores , 7);
+    background-color: nth($lista-colores , 1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,9 +17,6 @@ header{
         ul{
             color: $color-principal;
             display: flex;
-            li{
-                color: $color-secundario;
-            }
         }
     }
 }
